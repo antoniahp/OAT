@@ -137,3 +137,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "mediafiles")
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "oat.User"
+DATA_UPLOAD_MAX_NUMBER_FIELDS=5000
